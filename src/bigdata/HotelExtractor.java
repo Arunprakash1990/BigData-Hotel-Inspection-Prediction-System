@@ -13,7 +13,7 @@ public class HotelExtractor {
 public 	String result="Search term not found";
 	 public String getPos(String hotel_name) {
 
-			String csvFile = "/Users/roshnaramesh/Documents/workspace/Big_data/WebContent/charisma-master/hotelInfo.csv";
+			String csvFile = "/Users/arunprakash/Documents/workspace/Big_data/WebContent/charisma-master/hotelInfo.csv";
 			BufferedReader br = null;
 			String line = "";
 			String cvsSplitBy = ",";

@@ -55,8 +55,8 @@ public class ReviewListExtraction {
                 if(file.isFile()){*/
                 	TreeMap<String,String> dateCount=new TreeMap<String,String>();
                 	//System.out.println(file.getAbsolutePath());
-                    InputStream is = new FileInputStream("/Users/roshnaramesh/Downloads/json/"+id+".json");
-                    File file1=new File("/Users/roshnaramesh/Downloads/json/"+id+".json");
+                    InputStream is = new FileInputStream("/Users/arunprakash/Downloads/json/"+id+".json");
+                    File file1=new File("/Users/arunprakash/Downloads/json/"+id+".json");
                     String file2=file1.getName();
                     String hotel_id=file2.replaceFirst(".json", "");
                     int size;
@@ -72,7 +72,7 @@ public class ReviewListExtraction {
                     FileWriter fileWriter = null;
                     String fileReview="ReviewList"+hotel_id;
                     
-                    fileWriter = new FileWriter("/Users/roshnaramesh/Documents/workspace/Big_data/WebContent/charisma-master/"+fileReview+".csv");
+                    fileWriter = new FileWriter("/Users/arunprakash/Documents/workspace/Big_data/WebContent/charisma-master/"+fileReview+".csv");
                     fileWriter.append(FILE_HEADER2);
                     fileWriter.append(NEW_LINE_SEPARATOR);
                     JSONObject outerObject = new JSONObject(mResponse);

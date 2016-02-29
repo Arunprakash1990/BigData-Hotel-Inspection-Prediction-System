@@ -16,7 +16,7 @@ public static int neg;
 
   public int getPos(String hotel_id) {
 
-	String csvFile = "/Users/roshnaramesh/Downloads/sentiment.csv";
+	String csvFile = "/Users/arunprakash/Downloads/sentiment.csv";
 	BufferedReader br = null;
 	String line = "";
 	String cvsSplitBy = ",";
@@ -57,7 +57,7 @@ pos=Integer.parseInt(hotel[2]);
   }
   public int getNeg(String hotel_id) {
 
-		String csvFile = "/Users/roshnaramesh/Downloads/sentiment.csv";
+		String csvFile = "/Users/arunprakash/Downloads/sentiment.csv";
 		BufferedReader br = null;
 		String line = "";
 		String cvsSplitBy = ",";

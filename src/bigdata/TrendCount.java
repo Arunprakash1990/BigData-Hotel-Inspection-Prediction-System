@@ -62,7 +62,7 @@ public static void main(String[] args) throws IOException, ParseException
 }
 /*public static ArrayList<String> getDate() throws IOException, ParseException
 {
-	InputStream is = new FileInputStream("/Users/roshnaramesh/Downloads/json/100407.json");
+	InputStream is = new FileInputStream("/Users/arunprakash/Downloads/json/100407.json");
 	int size;
 
 	size = is.available();
@@ -99,7 +99,7 @@ return date1;
 }
 public static ArrayList<Float> getTrend() throws IOException, ParseException
 {
-	InputStream is = new FileInputStream("/Users/roshnaramesh/Downloads/json/2514498.json");
+	InputStream is = new FileInputStream("/Users/arunprakash/Downloads/json/2514498.json");
 	int size;
 
 	size = is.available();
@@ -138,7 +138,7 @@ return rating;
 public  String getRateCount (String id){
 	
 	String totline="{";
-	String csvFile = "/Users/roshnaramesh/Downloads/json/Rate"+id+".csv";
+	String csvFile = "/Users/arunprakash/Downloads/json/Rate"+id+".csv";
 	BufferedReader br = null;
 	String line = "";
 	String cvsSplitBy = ",";

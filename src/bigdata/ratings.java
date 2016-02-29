@@ -60,7 +60,7 @@ public static void main(String[] args) throws IOException
 public  TreeMap<String,Integer> getRating(String id) throws IOException
 {
 	//System.out.println(path);
-	InputStream is = new FileInputStream("/Users/roshnaramesh/Downloads/json/"+id+".json");
+	InputStream is = new FileInputStream("/Users/arunprakash/Downloads/json/"+id+".json");
 	int size;
 
 	size = is.available();
@@ -71,7 +71,7 @@ is.close();
 String mResponse = new String(buffer);
 FileWriter fileWriter = null;
 //String fileReview="OverallCount"+hotel_id;
-fileWriter = new FileWriter("/Users/roshnaramesh/Downloads/json/Rate"+id+".csv");
+fileWriter = new FileWriter("/Users/arunprakash/Downloads/json/Rate"+id+".csv");
 fileWriter.append("rating,count");
 fileWriter.append(NEW_LINE_SEPARATOR);
 JSONObject outerObject = new JSONObject(mResponse);

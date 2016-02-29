@@ -51,7 +51,7 @@ public class SentimentAnalysisStats {
      			sline=sline.trim();
      			stopWordList.add(sline);
      		}
-        	 String directory = "/Users/Nirmal/Downloads/json/";
+        	 String directory = "/Users/arunprakash/Downloads/json/";
         	 File[] files = new File(directory).listFiles();
         	 int count=0;
         	
@@ -83,7 +83,7 @@ public class SentimentAnalysisStats {
 			FileWriter fileWriter = null;
 			String fileReview="Review"+hotel_id;
 			
-			fileWriter = new FileWriter("/Users/Nirmal/Documents/TrainingData/"+fileReview+".txt");
+			fileWriter = new FileWriter("/Users/arunprakash/Documents/TrainingData/"+fileReview+".txt");
 			            //Write the CSV file header
 		    //fileWriter.append(FILE_HEADER.toString());
 	        //Add a new line separator after the header

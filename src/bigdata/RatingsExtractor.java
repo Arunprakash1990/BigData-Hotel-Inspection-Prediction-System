@@ -17,7 +17,7 @@ public class RatingsExtractor {
 
 	 public HashMap<String,Integer> getPos(String hotel_id) {
 
-			String csvFile = "/Users/roshnaramesh/Documents/workspace/Big_data/WebContent/charisma-master/feature"+100407+".csv";
+			String csvFile = "/Users/arunprakash/Documents/workspace/Big_data/WebContent/charisma-master/feature"+100407+".csv";
 			BufferedReader br = null;
 			String line = "";
 			String cvsSplitBy = ",";

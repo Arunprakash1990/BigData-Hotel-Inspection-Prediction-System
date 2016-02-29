@@ -57,8 +57,8 @@ public static void main(String args[]) throws JsonParseException, JsonMappingExc
 public static HashMap<String,Integer> ratings(String id) throws JsonParseException, JsonMappingException, IOException
 {
 
-	InputStream is = new FileInputStream("/Users/roshnaramesh/Downloads/json/"+id+".json");
-File file1=new File("/Users/roshnaramesh/Downloads/json/"+id+".json");
+	InputStream is = new FileInputStream("/Users/arunprakash/Downloads/json/"+id+".json");
+File file1=new File("/Users/arunprakash/Downloads/json/"+id+".json");
 	String file2=file1.getName();
 	hotel_id=file2.replaceFirst(".json", "");
 	int size;
@@ -71,7 +71,7 @@ File file1=new File("/Users/roshnaramesh/Downloads/json/"+id+".json");
 	String mResponse = new String(buffer);
 	FileWriter fileWriter = null;
 	//String fileReview="OverallCount"+hotel_id;
-	fileWriter = new FileWriter("/Users/roshnaramesh/Downloads/json/feature100407.csv");
+	fileWriter = new FileWriter("/Users/arunprakash/Downloads/json/feature100407.csv");
 	fileWriter.append("rating,count");
 	fileWriter.append(NEW_LINE_SEPARATOR);
 

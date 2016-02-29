@@ -44,7 +44,7 @@ public class FeatureExtraction {
         try {
         	id=id.trim();
         	 int count=0;
-            /*String directory = "/Users/Nirmal/Downloads/json/";
+            /*String directory = "/Users/arunprakash/Downloads/json/";
             File[] files = new File(directory).listFiles();
            
           
@@ -52,8 +52,8 @@ public class FeatureExtraction {
                 if(file.isFile()){*/
                 	TreeMap<String,Integer> dateCount=new TreeMap<String,Integer>();
                 	//System.out.println(file.getAbsolutePath());
-                    InputStream is = new FileInputStream("/Users/roshnaramesh/Downloads/json/"+id+".json");
-                    File file1=new File("/Users/roshnaramesh/Downloads/json/"+id+".json");
+                    InputStream is = new FileInputStream("/Users/arunprakash/Downloads/json/"+id+".json");
+                    File file1=new File("/Users/arunprakash/Downloads/json/"+id+".json");
                     String file2=file1.getName();
                     String hotel_id=file2.replaceFirst(".json", "");
                     int size;
@@ -69,7 +69,7 @@ public class FeatureExtraction {
                     FileWriter fileWriter = null;
                     String fileReview="DateCount"+hotel_id;
                     
-                    fileWriter = new FileWriter("/Users/roshnaramesh/Downloads/json/"+fileReview+".csv");
+                    fileWriter = new FileWriter("/Users/arunprakash/Downloads/json/"+fileReview+".csv");
                    fileWriter.append("date,count");
                     fileWriter.append(NEW_LINE_SEPARATOR);
                     JSONObject outerObject = new JSONObject(mResponse);

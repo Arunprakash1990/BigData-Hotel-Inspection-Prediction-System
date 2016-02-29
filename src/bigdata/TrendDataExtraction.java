@@ -43,7 +43,7 @@ public class TrendDataExtraction {
         // DB db = mongoClient.getDB( "test" );
         try {
         	
-            String directory = "/Users/Nirmal/Downloads/json/";
+            String directory = "/Users/arunprakash/Downloads/json/";
             File[] files = new File(directory).listFiles();
             int count=0;
           
@@ -68,7 +68,7 @@ public class TrendDataExtraction {
                     FileWriter fileWriter = null;
                     String fileReview="DateCount"+hotel_id;
                     
-                    fileWriter = new FileWriter("/Users/Nirmal/Documents/DateCount/"+fileReview+".csv");
+                    fileWriter = new FileWriter("/Users/arunprakash/Documents/DateCount/"+fileReview+".csv");
                    fileWriter.append("date,count");
                     fileWriter.append(NEW_LINE_SEPARATOR);
                     JSONObject outerObject = new JSONObject(mResponse);
