@@ -1,0 +1,65 @@
+{
+		        "Sedan": 1760,
+		        "Coupe": 535,
+		        "SUV": 695,
+		        "Month": "Jan"
+		    }, {
+		        "Sedan": 1849,
+		        "Coupe": 395,
+		        "SUV": 688,
+		        "Month": "Feb"
+		    }, {
+		        "Sedan": 2831,
+		        "Coupe": 685,
+		        "SUV": 1047,
+		        "Month": "Mar"
+		    }, {
+		        "Sedan": 2851,
+		        "Coupe": 984,
+		        "SUV": 1652,
+		        "Month": "Apr"
+		    }, {
+		        "Sedan": 2961,
+		        "Coupe": 1579,
+		        "SUV": 1889,
+		        "Month": "May"
+		    }, {
+		        "Sedan": 1519,
+		        "Coupe": 1539,
+		        "SUV": 1766,
+		        "Month": "Jun"
+		    }, {
+		        "Sedan": 2633,
+		        "Coupe": 1489,
+		        "SUV": 1361,
+		        "Month": "Jul"
+		    }, {
+		        "Sedan": 1140,
+		        "Coupe": 650,
+		        "SUV": 874,
+		        "Month": "Aug"
+		    }, {
+		        "Sedan": 1626,
+		        "Coupe": 653,
+		        "SUV": 693,
+		        "Month": "Sep"
+		    }, {
+		        "Sedan": 1478,
+		        "Coupe": 2236,
+		        "SUV": 786,
+		        "Month": "Oct"
+		    }, {
+		        "Sedan": 1306,
+		        "Coupe": 1937,
+		        "SUV": 599,
+		        "Month": "Nov"
+		    }, {
+		        "Sedan": 1607,
+		        "Coupe": 2138,
+		        "SUV": 678,
+		        "Month": "Dec"
+		    }
+		    
+		    
+		    
+		    {"count": 1, "Date": "May 2009"}, {"count": 2, "Date": "October 2009"}, {"count": 1, "Date": "September 2009"}
